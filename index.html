@@ -1,0 +1,230 @@
+<!doctype html>
+<head>
+	<html lang="zh-CN">
+  <meta charset="utf-8">
+<link rel="stylesheet" href="bootstrap-3.3.5/css/bootstrap.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="bootstrap-3.3.5/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script href="bootstrap-3.3.5/js/bootstrap.min.js"></script>
+
+<script href="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
+
+  <title>Assignment01Refine</title>
+</html>
+
+
+<style type="text/css" media="screen">
+	body { padding-top: 130px; }
+
+	@media (min-width: 768px) {
+  .container {
+    width: 500px;
+  }
+	}
+	@media (min-width: 992px) {
+	  .container {
+	    width: 950px;
+	  }
+	}
+	@media (min-width: 1200px) {
+	  .container {
+	    width: 950px;
+	  }
+	}
+
+	@link-color {
+
+	}
+
+	#flowlayout{
+	  	padding-top: 50px;
+	  }
+
+	#detailDesc {
+		padding-top:  40px;
+	}
+	
+	#flowLayout-itemUnder{
+		padding-top:  20px;
+		background-color: #ffffff;
+	}
+/*top src*/
+	#flowLayout-topleft {
+		background: url("images/img1.jpg");
+	}
+	#flowLayout-topmidtop {
+		background: url("images/img2.jpg");
+	}
+	#flowLayout-topmidbot {
+		background: url("images/img3.jpg");
+	}	
+	#flowLayout-toprighttop {
+		background: url("images/img4.jpg");
+	}
+	/*bot src*/
+	#flowLayout-botlefttop {
+		background: url("images/img6.jpg");
+	}
+
+
+	#flowLayout-botmid {
+		background: url("images/img5.jpg");
+	}
+
+	#flowLayout-botrighttop {
+		background: url("images/img7.jpg");
+	}
+		#flowLayout-botrightbot {
+		background: url("images/img2.jpg");
+	}
+	
+
+	.zc-bgimg-min {
+		background-size: cover;
+		height: 96px;
+		border-radius: 5px;
+	}
+	.zc-bgimg-max {
+		background-size: cover;
+		height: 216px;
+		border-radius: 5px;
+	}
+	.zc-text-max {
+		margin-top: 0px;
+		line-height: 216px;
+		margin-bottom: 0px;
+		color: #000;
+
+	}
+	.zc-text-min {
+		margin-top: 0px;
+		line-height: 108px;
+		margin-bottom: 0px;
+		color: #000;
+	}
+
+	.zc-interMargin {
+		margin-top: 24px;
+	}
+
+
+</style>
+</head>
+
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+  <!-- <span class="icon-bar"></span> -->
+  		<a class="navbar-brand" href="index.html">GitHub</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search">
+        </div>
+      <!-- <button type="submit" class="btn btn-default">Submit</button> -->
+      </form>
+
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Explore</a></li>
+        <li><a href="index.html">Features</a></li>
+        <li><a href="index.html">Enterprise</a></li>
+        <li><a href="index.html">Blogs</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+      <button type="button" class="btn btn-default navbar-btn btn-success" href ="404/web/404.html">Sign up</button>
+
+      <button type="button" class="btn btn-default navbar-btn">Sign in</button>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-->
+</nav> 
+
+<div class="container">
+	<h1 id="title" class="text-center">Explore</h1>
+	<h4 id="detailDesc" class="text-center lead">Browse interesting projects, solving all types of interesting problems.</h4>
+</div>
+
+<div id="flowlayout" class="container">
+	<div class="row">
+	  <div id="flowLayout-topleft" class="col-md-6 zc-bgimg-max">
+	  	<h1 class="text-center zc-text-max"><a href="404/web/404.html">Game Engines</a></h1>
+	  </div>
+	  <div class="col-md-3">
+	  	<div>
+	  		<h5 id="flowLayout-topmidtop" class="text-center zc-text-min zc-bgimg-min"><a href="404/web/404.html">NoSQL Databases</a></h5>
+	  	</div>
+	  	<div class="zc-interMargin">
+	  		<h5 id="flowLayout-topmidbot" class="text-center zc-text-min zc-bgimg-min"><a href="404/web/404.html">Projects powerup GitHUb</a></h5>	
+	  	</div>
+	  </div>
+	  <div class="col-md-3">
+	  		<div>
+	  			<h5 id="flowLayout-toprighttop" class="text-center zc-text-min zc-bgimg-min"><a href="404/web/404.html">Projects powerup GitHUb</a></h5>
+	  		</div>
+	  		<div id="flowLayout-itemUnder" class="text-center zc-interMargin">
+	  			<h4>explore</h4>
+	  			<u><a href="404/web/404.html">somewthing like that</a></u>
+	  		</div>
+	  </div>
+	</div>
+</div>
+
+<div id="flowlayout" class="container">
+	<div class="row">
+	    <div class="col-md-3">
+	  		<div>
+	  		<h5 id="flowLayout-botlefttop" class="text-center zc-text-min zc-bgimg-min"><a href="404/web/404.html">Projects powerup GitHUb</a></h5>
+	  		</div>
+	  		<div id="flowLayout-itemUnder" class="text-center zc-interMargin">
+	  			<h4>explore</h4>
+	  			<u><a href="404/web/404.html">somewthing like that</a></u>
+	  		</div>
+	    </div>
+		    <div id="flowLayout-botmid" class="col-md-6 zc-bgimg-max">
+		  		<h1 class="text-center zc-text-max"><a href="404/web/404.html">Game Engines</a></h1>
+		    </div>
+	    <div class="col-md-3">
+	  	    <div>
+	  		    <h5 id="flowLayout-botrighttop" class="text-center zc-text-min zc-bgimg-min"><a href="NoSQL Databases">NoSQL Databases</a></h5>
+	  	    </div>
+	  	    <div class="zc-interMargin">
+	  		    <h5 id="flowLayout-botrightbot" class="text-center zc-text-min zc-bgimg-min"><a href="Projects powerup GitHUb">Projects powerup GitHUb</a></h5>	
+	  	    </div>
+	  </div>
+
+	</div>
+</div>
+
+<div id="flowlayout" class="container" style="padding-top: 100px">
+	<div class="panel panel-primary">
+		<div class="panel panel-heading">
+			<h5>Information</h5>
+		</div>
+		<div class="panel panel-body">
+			<div class="row">
+	  			<div class="col-md-8">www.github.com</div>
+	  			<div class="col-md-4"><a href="https://github.com/Jasonbroker/1KE-Assignment01" title="">made by Jason Zhou(若鱼)</a></div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+</div>
+
+</body>
